@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Disparo de 22 de Setembro — Rafael Simões 4445</title>
+<meta name="description" content="Resultado do disparo de 22/09/2026: 4.182 mensagens enviadas por 16 números para 28 municípios do sul de Minas.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101317" media="(prefers-color-scheme: dark)">
+<meta name="robots" content="noindex">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Disparo de 22 de Setembro — Rafael Simões 4445">
+<meta property="og:description" content="4.182 mensagens, 16 números, 28 municípios do sul de Minas.">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232a78d6'/%3E%3Cpath d='M9 21V11m7 10V15m7 6v-8' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+
+:root{
+  --bg:#f6f7fa; --surface:#ffffff; --surface-2:#fbfcfd;
+  --ink:#10141c; --ink-2:#545c6b; --ink-3:#89909d;
+  --line:#e3e6ec; --line-2:#eef0f4;
+  --accent:#2a78d6; --warn:#eda100; --warn-ink:#8a5d00; --warn-bg:#fdf6e4;
+  --cat-1:#2a78d6; --cat-2:#eb6834; --cat-3:#1baf7a;
+  --vazio:#ced4de;
+  --s0:transparent; --s1:#cde2fb; --s2:#9ec5f4; --s3:#6da7ec;
+  --s4:#3987e5; --s5:#256abf; --s6:#184f95;
+  --s-ink-lo:#0d2740; --s-ink-hi:#ffffff;
+  --bar-track:#eceff4;
+  --shadow:0 1px 2px rgba(16,20,28,.05), 0 1px 1px rgba(16,20,28,.03);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#101317; --surface:#181c22; --surface-2:#1d222a;
+    --ink:#f1f3f7; --ink-2:#a9b1be; --ink-3:#757d8b;
+    --line:#282e37; --line-2:#222831;
+    --accent:#3987e5; --warn:#c98500; --warn-ink:#e7b955; --warn-bg:#241e10;
+    --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70;
+    --vazio:#39414d;
+    --s1:#1a2e46; --s2:#22456e; --s3:#2b5d95;
+    --s4:#3579c4; --s5:#4a93e2; --s6:#7cb5ef;
+    --s-ink-lo:#e8eef6; --s-ink-hi:#0b1420;
+    --bar-track:#242a33;
+    --shadow:0 1px 2px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#101317; --surface:#181c22; --surface-2:#1d222a;
+  --ink:#f1f3f7; --ink-2:#a9b1be; --ink-3:#757d8b;
+  --line:#282e37; --line-2:#222831;
+  --accent:#3987e5; --warn:#c98500; --warn-ink:#e7b955; --warn-bg:#241e10;
+  --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70;
+  --vazio:#39414d;
+  --s1:#1a2e46; --s2:#22456e; --s3:#2b5d95;
+  --s4:#3579c4; --s5:#4a93e2; --s6:#7cb5ef;
+  --s-ink-lo:#e8eef6; --s-ink-hi:#0b1420;
+  --bar-track:#242a33;
+  --shadow:0 1px 2px rgba(0,0,0,.35);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,-apple-system,Segoe UI,sans-serif;
+  font-size:14px; line-height:1.5; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1120px; margin:0 auto; padding-inline:20px; padding-block:28px 56px}
+
+/* ---------- cabeçalho ---------- */
+.eyebrow{
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11px; font-weight:500;
+  letter-spacing:.13em; text-transform:uppercase; color:var(--ink-3); margin:0 0 8px;
+}
+h1{
+  font-family:Archivo,system-ui,sans-serif; font-weight:700; font-size:clamp(26px,4.2vw,38px);
+  line-height:1.08; letter-spacing:-.022em; margin:0; text-wrap:balance;
+}
+/* ---------- KPIs ---------- */
+.kpis{display:grid; grid-template-columns:repeat(6,1fr); gap:1px; margin:22px 0 0;
+  background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden}
+.kpi{background:var(--surface); padding:14px 16px 15px}
+.kpi b{display:block; font-family:"IBM Plex Mono",monospace; font-weight:600;
+  font-size:clamp(20px,2.7vw,26px); letter-spacing:-.02em; font-variant-numeric:tabular-nums; line-height:1.15}
+.kpi span{display:block; font-size:11.5px; color:var(--ink-2); margin-top:3px}
+
+/* ---------- seções ---------- */
+section{margin-top:34px}
+h2{
+  font-family:Archivo,system-ui,sans-serif; font-weight:600; font-size:17px;
+  letter-spacing:-.01em; margin:0 0 3px;
+}
+.hint{color:var(--ink-3); font-size:12.5px; margin:0 0 14px}
+
+.panel{background:var(--surface); border:1px solid var(--line); border-radius:11px; box-shadow:var(--shadow)}
+.panel-pad{padding:16px 18px 18px}
+
+/* ---------- matriz ---------- */
+.scroll{overflow-x:auto}
+table{border-collapse:collapse; width:100%; min-width:560px}
+caption{caption-side:top; text-align:left; padding:0 0 10px; color:var(--ink-3); font-size:12.5px}
+th,td{padding:0; text-align:center}
+thead th{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:500; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--ink-2); padding:0 0 9px; white-space:nowrap;
+}
+thead th .d{display:block; font-size:10px; color:var(--ink-3); letter-spacing:.02em; text-transform:none}
+th[scope=row]{
+  text-align:left; font-family:"IBM Plex Mono",monospace; font-weight:500; font-size:12.5px;
+  color:var(--ink-2); padding-right:12px; white-space:nowrap; width:1%;
+}
+.cell{
+  font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-size:13px; font-weight:500; height:38px; border-radius:5px; cursor:default;
+}
+.cell.z{color:var(--ink-3); font-weight:400}
+td{padding:2px}
+.tot{
+  font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-weight:600; font-size:13px; color:var(--ink); padding-left:12px;
+}
+tfoot th[scope=row]{color:var(--ink); font-weight:600}
+tfoot td{
+  font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-weight:600; font-size:12.5px; color:var(--ink-2); padding-top:8px;
+}
+tfoot .tot{color:var(--ink)}
+.legenda{display:flex; align-items:center; gap:8px; margin-top:14px; color:var(--ink-3); font-size:11.5px}
+.legenda .chips{display:flex; gap:2px}
+.legenda i{width:26px; height:9px; border-radius:2px; display:block}
+
+/* ---------- barras ---------- */
+.dias{display:grid; gap:9px}
+.linha{display:grid; grid-template-columns:96px 1fr 58px; align-items:center; gap:12px}
+.linha .rot{font-size:12.5px; color:var(--ink-2)}
+.linha .rot b{display:block; color:var(--ink); font-weight:500; font-size:13px}
+.track{background:var(--bar-track); border-radius:4px; height:16px; position:relative; overflow:hidden}
+.fill{height:100%; border-radius:4px; background:var(--accent); min-width:3px}
+.fill.parcial{background:var(--warn)}
+.num{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-size:12.5px; font-weight:500; text-align:right; color:var(--ink)}
+
+/* ---------- retorno ---------- */
+.empilhada{display:flex; gap:2px; height:30px}
+.seg{border-radius:4px; min-width:4px; cursor:default}
+.legret{display:flex; flex-wrap:wrap; gap:10px 26px; margin-top:15px}
+.item{display:flex; align-items:center; gap:8px; font-size:12.5px; color:var(--ink-2)}
+.item .sw{width:9px; height:9px; border-radius:2px; flex:0 0 auto}
+.item b{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  color:var(--ink); font-weight:600; font-size:13px}
+.item .pc{color:var(--ink-3); font-size:11.5px; font-family:"IBM Plex Mono",monospace}
+
+.cidades{display:grid; gap:7px}
+.cidades .linha{grid-template-columns:150px 1fr 44px}
+.cidades .rot{white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.resto{margin-top:12px; padding-top:12px; border-top:1px solid var(--line-2);
+  color:var(--ink-3); font-size:12.5px}
+
+/* ---------- variações ---------- */
+.vars{display:flex; align-items:flex-end; gap:4px; height:96px; margin-top:4px}
+.var{flex:1; min-width:0; display:flex; flex-direction:column; justify-content:flex-end; height:100%; gap:5px}
+.var .b{background:var(--accent); border-radius:3px 3px 0 0; min-height:3px}
+.var .l{font-family:"IBM Plex Mono",monospace; font-size:9.5px; color:var(--ink-3); text-align:center}
+.faixa{display:flex; justify-content:space-between; margin-top:10px; color:var(--ink-3); font-size:12px}
+
+footer{margin-top:40px; padding-top:18px; border-top:1px solid var(--line);
+  color:var(--ink-3); font-size:12px; display:flex; flex-wrap:wrap; gap:6px 18px}
+
+/* ---------- tooltip ---------- */
+#tip{
+  position:fixed; z-index:50; pointer-events:none; opacity:0; transition:opacity .09s;
+  background:var(--ink); color:var(--bg); font-size:12px; line-height:1.35;
+  padding:7px 9px; border-radius:6px; max-width:220px;
+  font-family:"IBM Plex Sans",sans-serif; box-shadow:0 4px 14px rgba(0,0,0,.22);
+}
+#tip b{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums}
+
+.fonte{color:var(--ink-3); font-size:11.5px; font-family:"IBM Plex Mono",monospace; margin:8px 0 0}
+.anim{opacity:0; transform:translateY(10px); transition:opacity .45s ease, transform .45s ease}
+.anim.on{opacity:1; transform:none}
+.linha .rot b{display:inline; font-family:"IBM Plex Mono",monospace; font-size:12.5px}
+#numeros .linha, #horas .linha{grid-template-columns:88px 1fr 58px}
+#tip[data-on]{opacity:1}
+
+@media (max-width:860px){ .kpis{grid-template-columns:repeat(3,1fr)} }
+@media (max-width:520px){
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .linha{grid-template-columns:78px 1fr 48px}
+  #numeros .linha, #horas .linha{grid-template-columns:76px 1fr 48px}
+  .cidades .linha{grid-template-columns:110px 1fr 40px}
+  .var .l{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">Rafael Simões 4445 · Dr. Paulo 44044 · Sul de Minas</p>
+  <h1>Disparo de 22 de setembro</h1>
+  <p class="fonte" id="fonte">—</p>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section class="anim">
+    <h2>Quanto cada número enviou</h2>
+    <p class="hint" id="numHint"></p>
+    <div class="panel panel-pad">
+      <div class="dias" id="numeros"></div>
+      <p class="resto" id="numResto"></p>
+    </div>
+  </section>
+
+  <section class="anim">
+    <h2>Ritmo ao longo do dia</h2>
+    <p class="hint" id="horaHint"></p>
+    <div class="panel panel-pad">
+      <div class="dias" id="horas"></div>
+      <p class="resto" id="horaResto"></p>
+    </div>
+  </section>
+
+  <section class="anim">
+    <h2>Onde as mensagens chegaram</h2>
+    <p class="hint" id="cidHint"></p>
+    <div class="panel panel-pad">
+      <div class="cidades" id="cidades"></div>
+      <p class="resto" id="cidResto"></p>
+    </div>
+  </section>
+
+  <section class="anim">
+    <h2>Os 20 textos</h2>
+    <p class="hint">A mensagem foi reescrita de 20 formas e repartida por igual entre os contatos.</p>
+    <div class="panel panel-pad">
+      <div class="vars" id="vars"></div>
+      <div class="faixa" id="varFaixa"></div>
+    </div>
+  </section>
+
+  <footer id="rodape"></footer>
+</div>
+
+<div id="tip" role="status" aria-live="polite"></div>
+
+<script>
+var DADOS = {"total":4182,"numeros":[["numero2",261],["numero3",262],["numero4",262],["numero5",262],["numero6",262],["numero7",262],["numero8",262],["numero9",261],["numero10",261],["numero11",261],["numero12",261],["numero13",261],["numero14",261],["numero15",261],["numero16",261],["numero17",261]],"horas":[["13h",591],["14h",605],["15h",600],["16h",607],["17h",595],["18h",604],["19h",580]],"cidades":[["Ipuiúna",834],["Jacutinga",758],["Monte Sião",651],["Camanducaia",519],["Itapeva",394],["Munhoz",308],["Cachoeira de Minas",208],["Cambuí",135],["Estiva",82],["Ouro Fino",48],["Conceição dos Ouros",45],["Extrema",38]],"outrasCidades":[16,162],"totalCidades":28,"variacoes":[209,209,209,209,209,209,209,209,209,209,209,209,209,209,209,209,210,210,209,209],"data":"22/09/2026","inicio":"13:00","fim":"19:57","duracaoH":6.94,"unicos":4182,"idMin":55,"idMax":4236};
+(function () {
+  "use strict";
+
+  var D = DADOS;
+  var el = function (id) { return document.getElementById(id); };
+  function fmt(n) { return n.toLocaleString("pt-BR"); }
+  function pc(a, b) { return b ? (a / b * 100).toFixed(1).replace(".", ",") + "%" : "0%"; }
+
+  // ---- tooltip ----
+  var tip = el("tip");
+  function mostrar(html, ev) {
+    tip.innerHTML = html;
+    tip.setAttribute("data-on", "");
+    var r = tip.getBoundingClientRect();
+    var x = ev.clientX + 14, y = ev.clientY - r.height - 10;
+    if (x + r.width > window.innerWidth - 8) x = ev.clientX - r.width - 14;
+    if (y < 8) y = ev.clientY + 18;
+    tip.style.left = Math.max(8, x) + "px";
+    tip.style.top = y + "px";
+  }
+  function esconder() { tip.removeAttribute("data-on"); }
+  function ligarTip(alvo, texto) {
+    alvo.addEventListener("mouseenter", function (e) { mostrar(texto, e); });
+    alvo.addEventListener("mousemove", function (e) { mostrar(texto, e); });
+    alvo.addEventListener("mouseleave", esconder);
+    alvo.tabIndex = 0;
+    alvo.addEventListener("focus", function () {
+      var b = alvo.getBoundingClientRect();
+      mostrar(texto, { clientX: b.left + b.width / 2, clientY: b.top });
+    });
+    alvo.addEventListener("blur", esconder);
+  }
+  window.addEventListener("scroll", esconder, { passive: true });
+
+  // ---- cabeçalho ----
+  el("fonte").textContent =
+    D.data + " · " + D.inicio + " às " + D.fim + " · fonte: registro de envios do robô";
+
+  var porNumero = Math.round(D.total / D.numeros.length);
+  el("kpis").innerHTML =
+    kpi(fmt(D.total), "mensagens enviadas") +
+    kpi(String(D.numeros.length), "números usados") +
+    kpi(String(D.totalCidades), "municípios") +
+    kpi(D.duracaoH.toFixed(1).replace(".", ",") + " h", "de disparo") +
+    kpi(fmt(Math.round(D.total / D.duracaoH)), "por hora, no total") +
+    kpi("0", "contatos repetidos");
+
+  function kpi(v, r) { return '<div class="kpi"><b>' + v + "</b><span>" + r + "</span></div>"; }
+
+  // ---- por número ----
+  var maxN = Math.max.apply(null, D.numeros.map(function (x) { return x[1]; }));
+  var elN = el("numeros");
+  D.numeros.forEach(function (x) {
+    var row = document.createElement("div");
+    row.className = "linha";
+    row.innerHTML =
+      '<div class="rot"><b>' + x[0] + "</b></div>" +
+      '<div class="track"><div class="fill" style="width:' + (x[1] / maxN * 100).toFixed(1) + '%"></div></div>' +
+      '<div class="num">' + fmt(x[1]) + "</div>";
+    ligarTip(row.querySelector(".track"),
+      "<b>" + fmt(x[1]) + "</b> mensagens<br>" + x[0] + " · " + pc(x[1], D.total) + " do total");
+    elN.appendChild(row);
+  });
+  var menor = Math.min.apply(null, D.numeros.map(function (x) { return x[1]; }));
+  el("numHint").textContent =
+    "A carga foi repartida por igual: cada número levou entre " + menor + " e " + maxN + " contatos.";
+  el("numResto").innerHTML =
+    "Média de <strong>" + fmt(porNumero) + "</strong> por número, ou <strong>" +
+    Math.round(porNumero / D.duracaoH) + " por hora</strong> em cada um.";
+
+  // ---- por hora ----
+  var maxH = Math.max.apply(null, D.horas.map(function (x) { return x[1]; }));
+  var elH = el("horas");
+  D.horas.forEach(function (x) {
+    var row = document.createElement("div");
+    row.className = "linha";
+    row.innerHTML =
+      '<div class="rot"><b>' + x[0] + "</b></div>" +
+      '<div class="track"><div class="fill" style="width:' + (x[1] / maxH * 100).toFixed(1) + '%"></div></div>' +
+      '<div class="num">' + fmt(x[1]) + "</div>";
+    ligarTip(row.querySelector(".track"), "<b>" + fmt(x[1]) + "</b> mensagens entre " + x[0] + " e " +
+      (parseInt(x[0], 10) + 1) + "h");
+    elH.appendChild(row);
+  });
+  el("horaHint").textContent = "Mensagens enviadas em cada hora, das " + D.inicio + " às " + D.fim + ".";
+  el("horaResto").innerHTML =
+    "O ritmo ficou parelho o dia inteiro — entre <strong>" +
+    Math.min.apply(null, D.horas.map(function (x) { return x[1]; })) + "</strong> e <strong>" +
+    maxH + "</strong> mensagens por hora.";
+
+  // ---- cidades ----
+  var maxC = D.cidades[0][1];
+  var elC = el("cidades");
+  D.cidades.forEach(function (x) {
+    var row = document.createElement("div");
+    row.className = "linha";
+    row.innerHTML =
+      '<div class="rot">' + x[0] + "</div>" +
+      '<div class="track"><div class="fill" style="width:' + (x[1] / maxC * 100).toFixed(1) + '%"></div></div>' +
+      '<div class="num">' + fmt(x[1]) + "</div>";
+    ligarTip(row.querySelector(".track"),
+      "<b>" + fmt(x[1]) + "</b> mensagens<br>" + x[0] + " · " + pc(x[1], D.total) + " do disparo");
+    elC.appendChild(row);
+  });
+  el("cidHint").textContent = "Os 12 municípios que mais receberam, dos " + D.totalCidades + " alcançados.";
+  el("cidResto").innerHTML =
+    "Mais <strong>" + fmt(D.outrasCidades[1]) + " mensagens</strong> espalhadas por outras " +
+    D.outrasCidades[0] + " cidades.";
+
+  // ---- variações ----
+  var maxV = Math.max.apply(null, D.variacoes);
+  var elV = el("vars");
+  D.variacoes.forEach(function (n, i) {
+    var col = document.createElement("div");
+    col.className = "var";
+    col.innerHTML = '<div class="b" style="height:' + Math.round(n / maxV * 74) + 'px"></div>' +
+      '<div class="l">' + (i + 1) + "</div>";
+    ligarTip(col, "<b>" + fmt(n) + "</b> contatos<br>Variação " + (i + 1) + " de 20");
+    elV.appendChild(col);
+  });
+  el("varFaixa").innerHTML =
+    "<span>Variação 1 → 20</span><span>entre <strong style=\"color:var(--ink)\">" +
+    Math.min.apply(null, D.variacoes) + "</strong> e <strong style=\"color:var(--ink)\">" +
+    maxV + "</strong> contatos cada</span>";
+
+  // ---- rodapé ----
+  el("rodape").innerHTML =
+    "<span>" + fmt(D.total) + " mensagens · " + D.numeros.length + " números · " +
+      D.totalCidades + " municípios</span>" +
+    "<span>" + fmt(D.unicos) + " telefones diferentes, nenhum repetido</span>" +
+    "<span>Registro nº " + D.idMin + " ao nº " + D.idMax + "</span>";
+
+  // ---- animação ----
+  var secoes = document.querySelectorAll(".anim");
+  if (window.matchMedia("(prefers-reduced-motion:reduce)").matches || !("IntersectionObserver" in window)) {
+    secoes.forEach(function (s) { s.classList.add("on"); });
+  } else {
+    var obs = new IntersectionObserver(function (ents) {
+      ents.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("on"); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.08 });
+    secoes.forEach(function (s, i) {
+      s.style.transitionDelay = Math.min(i, 4) * 50 + "ms";
+      obs.observe(s);
+    });
+  }
+})();
+</script>
+</body>
+</html>
